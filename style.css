@@ -1,0 +1,76 @@
+/* Body & Background */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-image: url('https://image2url.com/r2/bucket2/images/1766755543859-c7b90fb0-7966-42c2-ad84-5ae7601b994d.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #3a1a1a;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(to right, #8b0000, #b8860b);
+    color: white;
+    padding: 40px 20px;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+/* Sections */
+.section {
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.85);
+    margin: 20px;
+    border-radius: 12px;
+}
+
+/* Invite Name */
+.invite-name {
+    font-size: 28px;
+    color: #8b0000;
+    margin-bottom: 20px;
+}
+
+/* Date Box */
+.date-box {
+    display: inline-block;
+    border: 2px solid #b8860b;
+    padding: 15px 30px;
+    font-size: 22px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 260px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+.footer {
+    background: #8b0000;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+}
